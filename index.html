@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Ian's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="[hash]" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-G+gW7GOvMzUVmr2LOcxPLV8K70g6+cC2KJ9bZYLQmARH0TZz3InYsWpGK+SwJrxw" crossorigin="anonymous">
+
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Profile -->
+
+    <div class="profile-container">
+        <div class="container" id="profContainer">
+
+            <div class="responsive-button" id="responsiveBtn">
+                <p>Show Contacts</p>
+            </div>
+
+            <div class="head">
+                <div class="pic">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+
+                <div class="head-bio">
+                    <h1>Ian Gabriel Durian</h1>
+
+                    <div class="bio">
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <br>
+            <hr>
+
+            <div class="prof-sc-icons">
+
+                <div class="row">
+                    <div class="icon-container">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                mail
+                            </span>
+                        </div>
+                        <div class="icon-link">
+                            <p class="label">Email</p>
+                            <p>igdurian@gmail.com</p>
+                        </div>
+                    </div>
+    
+                    <div class="icon-container">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                smartphone
+                            </span>
+                        </div>
+                        <div class="icon-link">
+                            <p class="label">Phone</p>
+                            <p>+639914854229</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="icon-container">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                            </span>
+                        </div>
+                        <div class="icon-link">
+                            <p class="label">Birthday</p>
+                            <p>October 9 2000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="icon-container">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span>
+                        </div>
+                        <div class="icon-link">
+                            <p class="label">Location</p>
+                            <p>G.M.A Cavite, Philippines</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="resume-btn">
+                <button id="cvDownload" class="btn">Download CV</button>
+            </div>
+
+            <hr>
+
+            <div class="socmed-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Info -->
+
+    <div class="info-container">
+        <div class="container">
+            <div class="navbar">
+                <div><a href="#about" onclick="showContent('about')" class="menu-link">About</a></div>
+                <div><a href="#resume" onclick="showContent('resume')" class="menu-link">Resume</a></div>
+                <div><a href="#contact" onclick="showContent('contact')" class="menu-link">Contact</a></div>
+            </div>
+
+            <div class="content">
+
+                <!-- About -->
+                <div id="about" class="about-section page active">
+                    <div class="head-content">
+                        <h1>About Me</h1>
+                        <hr>
+
+                        <p>
+                            Greetings! I'm Ian, a web developer from the Philippines and a recent graduate of Cavite State University Main Campus with a degree in Computer Science. My expertise lies in web development, with a focus on creating captivating and user-friendly interfaces. Proficient in front-end development, I excel at bringing design concepts to life with interactive web experiences. While I continue to enhance my skills in back-end development, I'm already at an intermediate level, eager to delve deeper into server-side technologies.
+                        </p>
+                        <p>
+                            As a fresh graduate, I bring enthusiasm, adaptability, and a thirst for learning to any team. With a solid grasp of front-end technologies and a knack for problem-solving, I contribute creatively and meticulously to projects. My collaborative nature ensures smooth project execution, fostering a positive work environment. Keeping abreast of industry trends and delivering high-quality solutions, I'm ready to play a valuable role in the dynamic field of web development.
+                        </p>
+                    </div>
+                    
+                    <div class="body-content">
+                        <h2>What I'm Doing</h2>
+                        <div class="row row-1">
+                            <div class="col">
+                                <div class="box-container">
+                                    <div>
+                                        <img src="images/icon-design.svg" alt="">
+                                        <h3>Web Design</h3>
+                                    </div>
+                                    <p>Though not really my main forte, I can design at an average level, offering proper looking website designs.</p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="box-container">
+                                    <div>
+                                        <img src="images/icon-dev.svg" alt="">
+                                        <h3>Web Development</h3>
+                                    </div>
+                                    <p>My main skill as developer, can offer high-quality development of front-end pages at the professional level.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-2">
+                            <div class="col">
+                                <div class="box-container">
+                                    <div>
+                                        <img src="images/icon-app.svg" alt="">
+                                        <h3>Mobile Apps</h3>
+                                    </div>
+                                    <p>Currently studying and honing my skills so I can expand my expertise in software development.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <!-- Resume  -->
+                <div id="resume" class="resume-section page">
+                    <div class="head-content">
+                        <h1>Resume</h1>
+                        <hr>
+                    </div>  
+                    
+                    <div class="body-content">
+                        <div class="resume-container">
+                            <div class="head">
+                                <div class="icon-box">
+                                    <span class="material-symbols-outlined">
+                                        menu_book
+                                    </span>
+                                </div>
+                                <div class="icon-text">
+                                    <h2>Education</h2>
+                                </div>
+                            </div>
+
+                            <div class="resume-content">
+                                <ul>
+                                    <li>
+                                        <h3>General Mariano Alvarez Technical Integrated Highschool (Senior Highschool)</h3>
+                                        <text>2017-2019</text>
+                                        <p>My Highschool Alma mater, I have studied 6 years here from Grade 7 Junior High to Grade 12 Senior High and I graduated among the batch of 2019.</p>
+                                    </li>
+                                    <li>
+                                        <h3>Cavite State University Indang Campus (College)</h3>
+                                        <text>2019-2024</text>
+                                        <p>CVSU Main in short is where I spent 4 1/2 years to earn my Bachelor's degree in computer science, I graduated among the batch of 1st semester graduatees in the year 2024.</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="head">
+                                <div class="icon-box">
+                                    <span class="material-symbols-outlined">
+                                        diversity_3
+                                    </span>
+                                </div>
+                                <div class="icon-text">
+                                    <h2>Experience</h2>
+                                </div>
+                            </div>
+
+                            <div class="resume-content">
+                                <ul>
+                                    <li>
+                                        <h3>Platinum Cable and Internet (SHS Work Immersion)</h3>
+                                        <text>November 2018 - January 2019</text>
+                                        <p>My very first experience working in a field, it is considered blue collared work since I worked as an intern cableman and network technician. Platinum Cable is located in Paliparan Dasmarinas.</p>
+                                    </li>
+                                    <li>
+                                        <h3>Highly Succeed Inc. (College Internship)</h3>
+                                        <text>August 2022 - October 2022</text>
+                                        <p>The company named Highly Succeed Inc. is responsible for giving me the opportunity to complete my 140 hour On The Job Training. I worked as an Intern where I helped managed the databases of the company.</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="skills-container" >
+                                <div class="head-skills">
+                                    <h2>My Skills</h2>
+                                </div>
+
+                                <div class="skills-box">
+                                    <div class="progress-container">
+                                        <div class="progress-text">
+                                            <div class="fab-container">
+                                                <i class="fab fa-html5"></i>
+                                            </div>
+
+                                            <div class="text-container">
+                                                <h3>HTML</h3>
+                                            </div> 
+                                        </div>
+
+                                        <div class="progress-bar html">
+                                            <div>
+                                                <text>90%</text>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="progress-container">
+                                        <div class="progress-text">
+                                            <div class="fab-container">
+                                                <i class="fab fa-css3-alt"></i>
+                                            </div>
+
+                                            <div class="text-container">
+                                                <h3>CSS </h3>
+                                            </div>                  
+                                        </div>
+                                        
+                                        <div class="progress-bar css">
+                                            <div>
+                                                <text>80%</text>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="progress-container">
+                                        <div class="progress-text">                                           
+                                            <div class="fab-container">
+                                                <i class="fab fa-js"></i>
+                                            </div>
+
+                                            <div class="text-container">
+                                                <h3>Javascript</h3>
+                                            </div>   
+                                        </div>
+                                        
+                                        <div class="progress-bar js">
+                                            <div>
+                                                <text>50%</text>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress-container">
+                                        <div class="progress-text">
+                                            <div class="fab-container">
+                                                <i class="fab fa-php"></i>
+                                            </div>
+
+                                            <div class="text-container">
+                                                <h3>PHP</h3>
+                                            </div>  
+                                        </div>
+                                        
+                                        <div class="progress-bar php">
+                                            <div>
+                                                <text>50%</text>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                    
+
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div id="contact" class="contact-section page">
+                    <div class="head-content">
+                        <h1>Contact</h1>
+                        <hr>
+                    </div>  
+
+                    <div class="map">
+                        <figure>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.2935468657433!2d120.99978761029975!3d14.294369286098794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d72604b12cf5%3A0xfc4acf2486d497b6!2sLiving%20Word%20Ministries-%20GMA!5e0!3m2!1sen!2sph!4v1709804912086!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="form-container">
+                        <form id="emailForm" class="email-form">
+                            <input type="text" id="subject" name="subject" placeholder="Email Subject" required><br><br>
+                            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type Message Here" required></textarea><br><br>
+                            <input type="submit" class="submit-btn" value="Send Email">
+                        </form>
+                        <br>
+                        <br>
+                        <br>
+                        <p>Feel free to message me via email at <a href="#" style="color: #FDC25F;">igdurian@gmail.com</a>.</p>
+                        <p>Or contact me at my phone number: <text style="color: #FDC25F;">+639914854229</text></p>
+                        <br>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-nav">
+        <div class="navbar">
+            <div><a href="#about" onclick="showContent('about')" class="menu-link">About</a></div>
+            <div><a href="#resume" onclick="showContent('resume')" class="menu-link">Resume</a></div>
+            <div><a href="#contact" onclick="showContent('contact')" class="menu-link">Contact</a></div>
+        </div>
+    </footer>
+    
+    
+</body>
+
+
+
+
+<script>
+
+    //For cv download
+    document.getElementById('cvDownload').addEventListener('click', function() {
+
+        var filename = 'CV_Ian Gabriel Durian.pdf';
+        var filepath = 'assets/' + filename;
+        var link = document.createElement('a');
+
+        // Set the href attribute to the file path
+        link.href = filepath;
+
+        // Set the download attribute to the filename
+        link.download = filename;
+
+        // Append the link to the body
+        document.body.appendChild(link);
+
+        // Programmatically click the link to trigger the download
+        link.click();
+
+        // Remove the link from the body
+        document.body.removeChild(link);
+    });
+
+    // For Email back end
+    document.getElementById('emailForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      var subjectContent = document.getElementById('subject');
+      var messageContent = document.getElementById('message');
+      
+      var to = 'igdurian@gmail.com';
+      var subject = subjectContent.value;
+      var message = messageContent.value;
+
+      messageContent.value = '';
+      subjectContent.value = '';
+
+      var mailtoLink = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
+
+      window.location.href = mailtoLink;
+    }); 
+
+    // For responsive navbar button
+    document.getElementById('responsiveBtn').addEventListener('click', function() {
+        const container = document.getElementById('profContainer');
+
+        container.classList.toggle('active');
+    })
+
+
+    // ---------------------- For Dynamic navbar highlight ------------------------------ //
+    function showContent(contentId) {   
+        var pages = document.getElementsByClassName('page');
+        for (var i = 0; i < pages.length; i++) {
+            pages[i].classList.remove('active');
+        }
+
+        var contentElement = document.getElementById(contentId);
+        contentElement.classList.toggle('active');
+    }
+
+   // Function to detect the hash value in the address bar
+   function detectHash() {
+        var hash = window.location.hash.substr(1); // Get the hash value without the #
+        // Now you can use this hash value for your logic
+        if (hash === "about") {
+            displayContent('about');
+            updateLinkColor('about');
+        } else if (hash === "resume") {
+            displayContent('resume');
+            updateLinkColor('resume');
+        } else if (hash === "contact") {
+            displayContent('contact');
+            updateLinkColor('contact');
+        }
+    }
+
+    // Function to show content based on the hash value
+    function displayContent(content) {
+        // Your logic to show the content goes here
+        console.log("Displaying content: " + content);
+    }
+
+    // Function to update the color of the links
+    function updateLinkColor(activeLink) {
+        var links = document.getElementsByClassName('menu-link');
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].getAttribute('href').substr(1) === activeLink) {
+                links[i].style.color = '#FDC25F'; // Change the color to #FDC25F
+            } else {
+                links[i].style.color = ''; // Reset the color
+            }
+        }
+    }
+
+    // Function to handle click events on menu links
+    function handleClick(content) {
+        if (content === "") {
+            window.history.replaceState({}, document.title, window.location.pathname);
+        } else {
+            window.location.hash = content; // Update the hash value
+        }
+        displayContent(content); // Show the content
+        updateLinkColor(content); // Update link color
+    }
+
+    // Bind detectHash to the hashchange event
+    window.addEventListener("hashchange", detectHash);
+
+    // Call detectHash when the page loads to handle initial hash value
+    window.addEventListener("load", detectHash);
+
+    // Set the hash to #about when the page loads or reloads
+    window.addEventListener("load", function() {
+        if (window.location.hash !== 'about' ) {
+            window.location.hash = "about";
+        }
+    });
+
+
+
+    // ---------------- For maximum top scroll at every hash change ------------------------ //
+
+    // Function to handle hashchange event
+    function handleHashChange() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    // Bind handleHashChange to the hashchange event
+    window.addEventListener("hashchange", handleHashChange);
+
+    // Call handleHashChange when the page loads to handle initial hash value
+    window.addEventListener("load", handleHashChange);
+</script>
+</html>
